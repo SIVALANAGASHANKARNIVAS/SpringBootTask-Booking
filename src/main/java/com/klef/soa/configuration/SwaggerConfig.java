@@ -15,11 +15,11 @@ public class SwaggerConfig
     {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Patient Service API")
+                        .title("Booking Service API")
                         .version("1.0")
                         .description("REST API Documentation for Patient Microservice")
                         .contact(new Contact()
                                 .name("KLUniversity")
-                                .email("demo@example.com")));
+                                .email("nivassivala61@gmail.com")));
     }
 }
